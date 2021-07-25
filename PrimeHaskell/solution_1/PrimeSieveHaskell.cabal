@@ -32,7 +32,7 @@ executable Sieve
       Paths_PrimeSieveHaskell
   hs-source-dirs:
       app
-  ghc-options: -Wall -Werror -fllvm
+  ghc-options: -Wall -Werror -fllvm -O2
   build-depends:
       PrimeSieveHaskell
     , base >=4.7 && <5

@@ -21,5 +21,6 @@ executables:
     - -Werror
     # Remove ccomment if LLVM is available
     # - -fllvm
+    - -O2
     dependencies:
     - PrimeSieveHaskell
